@@ -1,0 +1,5 @@
+{
+  "incident": "API gateway returned 503 errors",
+  "root_cause": "Downstream payment-service unavailable",
+  "resolution": "Added retry logic and autoscaling"
+}

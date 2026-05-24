@@ -1,0 +1,5 @@
+{
+  "incident": "MongoDB timeout caused payment failures",
+  "root_cause": "Missing database index caused query slowdown",
+  "resolution": "Added compound index and optimized query"
+}

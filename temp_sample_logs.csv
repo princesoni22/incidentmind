@@ -1,0 +1,7 @@
+timestamp,service,level,message
+2026-05-24 10:00:00,payment-service,INFO,Service started
+2026-05-24 10:01:00,mongodb,WARN,Slow query detected
+2026-05-24 10:02:00,payment-service,ERROR,Database timeout
+2026-05-24 10:03:00,kubernetes,ERROR,Pod restarted
+2026-05-24 10:04:00,api-gateway,ERROR,503 service unavailable
+2026-05-24 10:05:00,payment-service,CRITICAL,Payment processing failed

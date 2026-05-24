@@ -1,0 +1,5 @@
+{
+  "incident": "Kubernetes pod restart after memory spike",
+  "root_cause": "Memory leak in payment-service",
+  "resolution": "Fixed object retention issue and increased memory limit"
+}
