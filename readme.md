@@ -3,7 +3,9 @@
 AI-powered multi-agent incident root cause analysis platform built using LangGraph, RAG, FastAPI, ChromaDB, and Groq LLMs.
 
 ---
-
+#  Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
 #  Features
 
 - Multi-agent AI workflow orchestration using LangGraph
@@ -21,7 +23,7 @@ AI-powered multi-agent incident root cause analysis platform built using LangGra
 #  Architecture
 
 Streamlit UI
-![alt text](image.png)
+
 ↓
 FastAPI Backend
 ↓
