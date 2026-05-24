@@ -21,6 +21,7 @@ AI-powered multi-agent incident root cause analysis platform built using LangGra
 #  Architecture
 
 Streamlit UI
+![alt text](image.png)
 ↓
 FastAPI Backend
 ↓

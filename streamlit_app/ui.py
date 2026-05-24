@@ -6,7 +6,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🚨 IncidentMind")
+st.title("IncidentMind")
+
 st.subheader(
     "AI-Powered Incident RCA Agent"
 )
@@ -41,21 +42,21 @@ if uploaded_file:
 
         with col1:
 
-            st.subheader("📌 Timeline")
+            st.subheader("Timeline")
 
             for event in data["timeline"]:
                 st.write(event)
 
         with col2:
 
-            st.subheader("🧠 AI Hypothesis")
+            st.subheader("AI Hypothesis")
 
             st.write(
                 data["hypothesis"]
             )
 
         st.subheader(
-            "📚 Similar Historical Incidents"
+            "Similar Historical Incidents"
         )
 
         for incident in data["incidents"]:
@@ -63,7 +64,7 @@ if uploaded_file:
             st.info(incident)
 
         st.subheader(
-            "📄 Root Cause Analysis Report"
+            "Root Cause Analysis Report"
         )
 
         st.markdown(data["rca"])
